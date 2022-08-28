@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+.container{
+    width: 40%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+.under_line{
+    margin: -16px 0 16px 0;
+    border-top: 1px rgb(153, 153, 153) solid ;
+}
+.container .add_form .action_add_form,
+.container .search_form .action_search_form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px 28px 16px;
+}
+
+.add_form .action_add_form input{
+    border: 1px solid #333;
+    padding: 8px;
+    width: 235px;
+    border-radius: 6px;
+}
+.add_form .action_add_form button{
+    background-color: rgb(43, 63, 178);
+    color: #fff;
+    padding: 8px 28px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.search_form .action_search_form input{
+    border: 1px solid #333;
+    padding: 8px;
+    width: 415px;
+    border-radius: 6px;
+}
+.search_form .action_search_form .btn_delete{
+    background-color: rgb(43, 63, 178);
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.search_form .action_search_form .btn_search{
+    background-color: rgb(43, 63, 178);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .list_num .item_num{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px 20px 16px;
+    padding: 24px 20px;
+    border-radius: 16px;
+    background-color: rgba(164, 161, 161, 0.573);
+}
